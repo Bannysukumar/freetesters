@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "245465200235",
+    "firebase_url": "https://free-testers-default-rtdb.firebaseio.com",
+    "project_id": "free-testers",
+    "storage_bucket": "free-testers.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245465200235:android:6365c511bcf978b4f9632e",
+        "android_client_info": {
+          "package_name": "com.free.testers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245465200235-0vssilccgqfaoteco7oqnt3u5bglt4f2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.free.testers",
+            "certificate_hash": "e049a1aa83bcfe43f9d1928d201a9cb9dac5bc27"
+          }
+        },
+        {
+          "client_id": "245465200235-km85jit35auh2jd17ppvbbvdaq3venrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXKNvG6SfzArkkRE2tYS6VVt-x3MMrTTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245465200235-km85jit35auh2jd17ppvbbvdaq3venrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

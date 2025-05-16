@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dark"
+    android:padding="24dp">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button_circle"
+        android:src="@android:drawable/ic_menu_revert"
+        android:tint="@color/text_primary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Privacy Policy"
+        android:textColor="@color/text_primary"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Updated: 1st April 2025"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Free Testers (&quot;the App&quot;). We respect your privacy and are committed to protecting your personal data. This Privacy Policy describes how we collect, use, disclose, and safeguard information when you use our mobile application, website, and any related services (collectively, the &quot;Services&quot;).\n\nThis app is completely free and does not require any payment to access its features."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Introduction"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company Name: Free Testers\nContact Email: support@testerscommunity.com\nJurisdiction: Based in India, but available to users worldwide.\n\nBy using our Services, you agree to the collection and use of your information in accordance with this Privacy Policy. If you do not agree with any part of this policy, please discontinue use of our Services."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Age Requirement"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We do not knowingly allow individuals under the age of 13 to use our App. If you are under 13, you must not use the App or submit any personal data to us. If we become aware that we have collected data from anyone under 13, we will take steps to remove such information and delete the account."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Information We Collect"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account Information:\n• Email Address: Collected when you sign up directly or via Google sign-in.\n• Password: Chosen by you if signing up directly. If using Google sign-in, we only receive authentication tokens and do not store your Google password.\n• Profile Information: You may optionally provide a profile name or other identifying details that appear in your profile.\n\nDeveloper App Details:\nIf you post an app for testing, we collect: App name, developer name, app URL (e.g., Play Store link), and app icon. This information is visible to all users of the App.\n\nDevice Information:\n• Device Model\n• Screen Resolution\n• Android OS Version\n\nWe collect these details to help developers understand which devices are testing their apps. None of these details can directly identify you personally.\n\nAnalytics and Usage Data:\nWe use Firebase and Google Analytics to collect anonymized usage and performance metrics. These tools may gather information such as session duration, frequency of use, and interactions with various features of the App. This helps us understand user behavior and improve the App.\n\nNotifications:\nWe request permission to send push notifications to your device. This allows us to notify you of updates, new app postings, or important service announcements."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. How We Use Your Information"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We may use the information we collect for various purposes, including:\n\n• To Provide and Maintain Our Services: Setting up and managing user accounts, displaying posted apps, facilitating testing, and ensuring the functionality of the App.\n\n• To Improve and Customize the App: Using device data and analytics to monitor usage trends and enhance user experience.\n\n• To Communicate with You: Sending you emails or in-app notifications about new features, policy updates, and support messages.\n\n• To Comply with Legal Obligations: As required by law or when necessary to enforce our Terms of Service, protect our rights, or safeguard users."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Sharing Your Information"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We do not sell or rent your personal data to third parties. However, we may share certain information in the following circumstances:\n\n• Service Providers: Trusted third-party providers (e.g., Firebase, Google Analytics) may access your data only as necessary to perform their tasks.\n\n• Business Transfers: If we engage in a merger or acquisition, your data may be transferred. You&apos;ll be notified of any such changes.\n\n• Legal Compliance: If required by law or valid legal processes.\n\n• With Your Consent: We may share your information for other purposes with your explicit permission."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. International Data Transfers"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your personal data may be transferred to and stored on servers located outside of your country of residence, including India. We take reasonable steps to ensure your data is treated securely and in accordance with this Privacy Policy and applicable laws."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Data Retention"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We retain your personal data only as long as necessary to fulfill the purposes outlined in this policy. Once no longer needed, your data will be deleted or anonymized."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Your Rights and Choices"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Access and Updates: You can review or update your account info within the App.\n\n• Deletion Requests: Email us at support@testerscommunity.com to delete your data or account.\n\n• Opt-Out of Notifications: You can disable push notifications in your device settings.\n\n• GDPR &amp; Regional Rights: Users in the EU or other applicable regions may request access, correction, or restriction of their data."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Security Measures"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We implement commercially reasonable measures to protect your data, including encryption and access controls. However, no system is 100% secure. In case of a data breach, we will notify users and authorities as required."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. User-Posted Content"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When you post an app for testing, details like the app name, developer name, store URL, and icon are publicly visible. You acknowledge that this information is accessible by all users and we are not responsible for how others use it."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11. Changes to This Privacy Policy"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We may update our Privacy Policy periodically. If significant changes are made, we will notify you through the App or via email."
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12. Contact Us"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you have any questions or wish to exercise your rights, contact us at:\nFree Testers\n📧 Email: support@testerscommunity.com"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout> 

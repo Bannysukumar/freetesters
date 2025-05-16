@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dark"
+    android:padding="16dp">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_media_previous"
+        android:tint="@color/text_primary"
+        android:contentDescription="Back" />
+
+    <TextView
+        android:id="@+id/addAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add App"
+        android:textColor="@color/text_primary"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/addAppSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please add your app details to get testers"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Name:"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/appNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/input_bg_rounded"
+        android:hint="Name of App"
+        android:textColorHint="@color/hint_text"
+        android:textColor="@color/text_primary"
+        android:padding="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer Name:"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/devNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/input_bg_rounded"
+        android:hint="Name of Developer"
+        android:textColorHint="@color/hint_text"
+        android:textColor="@color/text_primary"
+        android:padding="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Android Link:"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/appLinkInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/input_bg_rounded"
+        android:hint="https://play.google.com/store/apps/details?id="
+        android:textColorHint="@color/hint_text"
+        android:textColor="@color/text_primary"
+        android:padding="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paste App Icon URL:"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/imageUrlInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/input_bg_rounded"
+        android:hint="Paste image URL here"
+        android:textColorHint="@color/hint_text"
+        android:textColor="@color/text_primary"
+        android:padding="12dp" />
+
+    <ImageView
+        android:id="@+id/appIconPreview"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/splash_gradient"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/createListingButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Create Listing"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        android:backgroundTint="@color/button_blue"
+        android:background="@drawable/button_rounded"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="bottom" />
+
+</LinearLayout> 
